@@ -8,11 +8,7 @@ console.log(process.env.OpenAI_API_KEY)
 
 const openai = new OpenAI (
 
-<<<<<<< HEAD
     {apiKey: process.env.OpenAI_API_KEY
-=======
-    {apiKey: process.env.OpenAI_API_KEY
->>>>>>> 454d1eb9cb9c763af4cf886ef2a69eaa5bf4d5d4
 });
 
 const app = express ();
